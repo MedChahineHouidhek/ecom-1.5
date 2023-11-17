@@ -56,7 +56,7 @@ function getUserById(int $id)
     return $data;
 }
 
-function getUserByName(string $user_name)
+function getUserByUsername(string $user_name)
 {
     global $conn;
 

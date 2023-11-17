@@ -2,7 +2,7 @@
 $server = 'localhost';
 $userName = "root";
 $pwd = "";
-$db = "ecom1";
+$db = "site_jeu";
 
 $conn = mysqli_connect($server, $userName, $pwd, $db);
 if ($conn) {
